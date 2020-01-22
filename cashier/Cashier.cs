@@ -2,7 +2,7 @@
 
 namespace cashier
 {
-    class Program
+    class Cashier
     {
         static void Main(string[] args)
         {

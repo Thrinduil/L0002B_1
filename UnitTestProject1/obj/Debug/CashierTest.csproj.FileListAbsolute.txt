@@ -1,0 +1,14 @@
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\obj\Debug\CashierTest.csprojAssemblyReference.cache
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\obj\Debug\CashierTest.csproj.CoreCompileInputs.cache
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\obj\Debug\CashierTest.csproj.CopyComplete
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

@@ -1,0 +1,11 @@
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\bin\Debug\netcoreapp2.1\cashier.deps.json
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\bin\Debug\netcoreapp2.1\cashier.runtimeconfig.json
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\bin\Debug\netcoreapp2.1\cashier.runtimeconfig.dev.json
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\bin\Debug\netcoreapp2.1\cashier.dll
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\bin\Debug\netcoreapp2.1\cashier.pdb
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\obj\Debug\netcoreapp2.1\cashier.csprojAssemblyReference.cache
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\obj\Debug\netcoreapp2.1\cashier.csproj.CoreCompileInputs.cache
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\obj\Debug\netcoreapp2.1\cashier.AssemblyInfoInputs.cache
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\obj\Debug\netcoreapp2.1\cashier.AssemblyInfo.cs
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\obj\Debug\netcoreapp2.1\cashier.dll
+C:\Users\fsode\Dropbox\Skola\L0002B\L0002B_1\cashier\obj\Debug\netcoreapp2.1\cashier.pdb
