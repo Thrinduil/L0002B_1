@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace cashier
 {
@@ -54,18 +55,32 @@ namespace cashier
             return denominators;
         }
 
-        static void PrintDenominators(List<int> denominators)
+        static void PrintDenominator(string value, int quantity, bool coin)
         {
-            foreach (var denominator in denominators)
+            string moneyTypeSingular;
+            string moneyTypePlural;
+
+            if (coin)
             {
-                Console.WriteLine(denominator);
+                moneyTypeSingular = "krona";
+                moneyTypePlural = "kronor";
+            } else
+            {
+                moneyTypeSingular = "lapp";
+                moneyTypePlural = "lappar";
+            }
+
+            if (quantity == 1)
+            {
+                Console.WriteLine("{0} {1}{2}", quantity, value, moneyTypeSingular);
+            } else if (quantity > 1)
+            {
+                Console.WriteLine("{0} {1}{2}", quantity, value, moneyTypePlural);
             }
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             int price = GetPrice();
             int payed = GetPayed();
 
@@ -74,7 +89,29 @@ namespace cashier
             int change = payed - price;
 
             List<int> denominators = GetDenominators(change);
-            PrintDenominators(denominators);
+
+            int thousands = denominators.Where(item => item == 1000).Count();
+            int fivehundreds = denominators.Where(item => item == 500).Count();
+            int twohundreds = denominators.Where(item => item == 200).Count();
+            int onehundreds = denominators.Where(item => item == 100).Count();
+            int fifties = denominators.Where(item => item == 50).Count();
+            int twenties = denominators.Where(item => item == 20).Count();
+            int tens = denominators.Where(item => item == 10).Count();
+            int fives = denominators.Where(item => item == 5).Count();
+            int twoes = denominators.Where(item => item == 2).Count();
+            int ones = denominators.Where(item => item == 1).Count();
+
+            Console.WriteLine("Växel tillbaka:");
+            PrintDenominator("tusen", thousands, false);
+            PrintDenominator("femhundra", fivehundreds, false);
+            PrintDenominator("tvåhundra", twohundreds, false);
+            PrintDenominator("hundra", onehundreds, false);
+            PrintDenominator("femtio", fifties, false);
+            PrintDenominator("tjugo", twenties, false);
+            PrintDenominator("tio", tens, true);
+            PrintDenominator("fem", fives, true);
+            PrintDenominator("två", twoes, true);
+            PrintDenominator("en", ones, true);
 
             Console.ReadLine();
         }
